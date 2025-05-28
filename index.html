@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Website</title>
+    <link rel="icon" href="Images/favicon.ico" type="image/x-icon">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/index.css">
+</head>
+<body>
+
+    <!-- Burger Menu Start -->
+    <nav class="burger-menu">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#">GALLERY</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </nav>
+    <!-- Burger Mneu Stop -->
+
+    <!-- Header Section -->
+    <header class="header-main">  
+        <div class="box1">
+            <img src="Images/Logo.png" alt="Logo" >
+
+            <nav class="box2">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#">GALLERY</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+       
+        <div class="box3">
+            <a href="www.facebook.com"><div class="box3-fb"></div></a>
+            <a href="www.instagram.com"><div class="box3-insta"></div></a>
+            <a href="www.whatsapp.com"><div class="box3-wtsapp"></div></a>
+            <div class="burger-menu-btn"></div>
+        </div>     
+    </header>
+    
+    <!-- The Hero Section -->
+   <main>
+        <div class="main-intro">
+            <h1>Welcome<br>to my first<br>website</h1>
+            <p>Praesent dapibus, neque id cursus faucibus, tortor egestas augue, eu vulputate magna eros eu erat.
+                Aliquam erat volutpat. Nam dui mi, tincidunt quis,
+                accumsan porttitor, facilisis luctus, metus.
+            </p>
+            <a href="#">MY WORK</a>
+        </div>
+
+        <div class="main-quotes">
+            <p>Your time is limited, so don't waste it living someone else's life.<br>Don't be trapped by dogma which is living<br>
+                with the results of other people's thinking.
+                <br>-Steve Jobs
+            </p>
+            <p>
+                If you look at what you have in life, you'll always have more.<br>If you look at what you don't have in life,<br>
+                you'll never have enough.
+                <br>-Oprah Winfrey
+            </p>
+        </div>
+   </main> 
+
+    <!-- The Category Section -->
+    <section class="index-category">
+        <p>Category</p>
+        <a href="#" class="index-category-box">
+            <div class="dark-overlay"></div>
+            <h3>
+                FrontEnd<br>Developer
+            </h3>
+        </a>
+        <a href="#" class="index-category-box">
+            <div class="dark-overlay"></div>
+            <h3>
+                BackEnd<br>Developer
+            </h3>
+        </a>
+        <a href="#" class="index-category-box">
+            <div class="dark-overlay"></div>
+            <h3>
+                Python<br>Developer
+            </h3>
+        </a>
+        <a href="#" class="index-category-box">
+            <div class="dark-overlay"></div>
+            <h3>
+                Data Structure &<br>Algorithms
+            </h3>
+        </a>
+        <a href="#" class="index-category-box">
+            <div class="dark-overlay"></div>
+            <h3>
+                Website<br>Designer
+            </h3>
+        </a>
+    </section>
+
+    <!-- The About Section -->
+    <section class="index-about">
+        <div class="wrapper-main index-about-flex">
+            <div class="index-about-img">
+                <img src="Images/me.jpeg " alt="Sanju Cholin">
+                <h2 style="text-align: center;">Sanjeevini Cholin</h2>
+            </div>
+            <div class="index-about-text">
+                <h2>About ME</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    <br><br>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="#">KNOW MORE</a>
+            </div>
+            <div class="index-about-skill">
+                <p>HTML & CSS</p>
+                <div class="index-about-skill-bar">
+                    <div class="index-about-skill-bar-fill htmlcss"></div>
+                </div>
+                <p>Javascript</p>
+                <div class="index-about-skill-bar">
+                    <div class="index-about-skill-bar-fill javas"></div>
+                </div>
+                <p>Python Programming</p>
+                <div class="index-about-skill-bar">
+                    <div class="index-about-skill-bar-fill python"></div>
+                </div>
+                <p>Bootstrap</p>
+                <div class="index-about-skill-bar">
+                    <div class="index-about-skill-bar-fill bootstrap"></div>
+                </div>
+                <p>MySQL</p>
+                <div class="index-about-skill-bar">
+                    <div class="index-about-skill-bar-fill mysql"></div>
+                </div>
+                <p>Data Structure & Algorithms</p>
+                <div class="index-about-skill-bar">
+                    <div class="index-about-skill-bar-fill dsa"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Footer Section -->
+    <footer class="footer-main">
+        <div class="wrapper-main footer-main-flex">
+            <div class="body wrapper-main footer-main-flex">
+                <section class="testimonials">
+                    <div class="container"> 
+                        <div class="section-header">
+                            <h2 class="title">REVIEWS</h2> 
+                        </div>
+                        <div class="testimonials-content">
+                            <div class="swiper testimonials-slider js-testimonials-slider">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide testimonials-item">
+                                        <div class="info">
+                                            <img src="Images/Footer/a1.jpeg" alt="">
+                                            <div class="text-box">
+                                                <h3 class="name">JOHN henry</h3>
+                                                <span class="job">Product Manager</span>
+                                            </div>
+                                        </div>
+                                        <p>Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus. Tellus molestie nunc non blandit massa. Congue nisi vitae suscipit tellus mauris a. Tellus orci ac auctor augue mauris augue neque.</p>
+                                        <div class="rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide testimonials-item">
+                                        <div class="info">
+                                            <img src="Images/Footer/a2.jpeg" alt="">
+                                            <div class="text-box">
+                                                <h3 class="name">lora laurel</h3>
+                                                <span class="job">web designer</span>
+                                            </div>
+                                        </div>
+                                        <p>Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus. Tellus molestie nunc non blandit massa. Congue nisi vitae suscipit tellus mauris a. Tellus orci ac auctor augue mauris augue neque.</p>
+                                        <div class="rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide testimonials-item">
+                                        <div class="info">
+                                            <img src="Images/Footer/a3.jpeg" alt="">
+                                            <div class="text-box">
+                                                <h3 class="name">william jan</h3>
+                                                <span class="job">digial marketing executive</span>
+                                            </div>
+                                        </div>
+                                        <p>Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus. Tellus molestie nunc non blandit massa. Congue nisi vitae suscipit tellus mauris a. Tellus orci ac auctor augue mauris augue neque.</p>
+                                        <div class="rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide testimonials-item">
+                                        <div class="info">
+                                            <img src="Images/Footer/a4.jpeg" alt="">
+                                            <div class="text-box">
+                                                <h3 class="name">elora aura</h3>
+                                                <span class="job">project manager</span>
+                                            </div>
+                                        </div>
+                                        <p>Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus. Tellus molestie nunc non blandit massa. Congue nisi vitae suscipit tellus mauris a. Tellus orci ac auctor augue mauris augue neque.</p>
+                                        <div class="rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide testimonials-item">
+                                        <div class="info">
+                                            <img src="Images/Footer/a5.jpeg" alt="">
+                                            <div class="text-box">
+                                                <h3 class="name">david noah</h3>
+                                                <span class="job">team leader</span>
+                                            </div>
+                                        </div>
+                                        <p>Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus. Tellus molestie nunc non blandit massa. Congue nisi vitae suscipit tellus mauris a. Tellus orci ac auctor augue mauris augue neque.</p>
+                                        <div class="rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide testimonials-item">
+                                        <div class="info">
+                                            <img src="Images/Footer/a6.jpeg" alt="">
+                                            <div class="text-box">
+                                                <h3 class="name">nora charlotte</h3>
+                                                <span class="job">chief administrative officer</span>
+                                            </div>
+                                        </div>
+                                        <p>Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus. Tellus molestie nunc non blandit massa. Congue nisi vitae suscipit tellus mauris a. Tellus orci ac auctor augue mauris augue neque.</p>
+                                        <div class="rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide testimonials-item">
+                                        <div class="info">
+                                            <img src="Images/Footer/a7.jpeg" alt="">
+                                            <div class="text-box">
+                                                <h3 class="name">rose elizabeth</h3>
+                                                <span class="job">chief analytics officer</span>
+                                            </div>
+                                        </div>
+                                        <p>Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus. Tellus molestie nunc non blandit massa. Congue nisi vitae suscipit tellus mauris a. Tellus orci ac auctor augue mauris augue neque.</p>
+                                        <div class="rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide testimonials-item">
+                                        <div class="info">
+                                            <img src="Images/Footer/a8.jpeg" alt="">
+                                            <div class="text-box">
+                                                <h3 class="name">benjamin frankie</h3>
+                                                <span class="job">trainee engineer</span>
+                                            </div>
+                                        </div>
+                                        <p>Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus. Tellus molestie nunc non blandit massa. Congue nisi vitae suscipit tellus mauris a. Tellus orci ac auctor augue mauris augue neque.</p>
+                                        <div class="rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide testimonials-item">
+                                        <div class="info">
+                                            <img src="Images/Footer/a9.jpeg" alt="">
+                                            <div class="text-box">
+                                                <h3 class="name">julia eleanor</h3>
+                                                <span class="job">network architect</span>
+                                            </div>
+                                        </div>
+                                        <p>Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus. Tellus molestie nunc non blandit massa. Congue nisi vitae suscipit tellus mauris a. Tellus orci ac auctor augue mauris augue neque.</p>
+                                        <div class="rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide testimonials-item">
+                                        <div class="info">
+                                            <img src="Images/Footer/a10.jpeg" alt="">
+                                            <div class="text-box">
+                                                <h3 class="name">katrina kaif</h3>
+                                                <span class="job">service desk analyst</span>
+                                            </div>
+                                        </div>
+                                        <p>Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus. Tellus molestie nunc non blandit massa. Congue nisi vitae suscipit tellus mauris a. Tellus orci ac auctor augue mauris augue neque.</p>
+                                        <div class="rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide testimonials-item">
+                                        <div class="info">
+                                            <img src="Images/Footer/a11.jpeg" alt="">
+                                            <div class="text-box">
+                                                <h3 class="name">giorgia meloni</h3>
+                                                <span class="job">system administrator</span>
+                                            </div>
+                                        </div>
+                                        <p>Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus. Tellus molestie nunc non blandit massa. Congue nisi vitae suscipit tellus mauris a. Tellus orci ac auctor augue mauris augue neque.</p>
+                                        <div class="rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide testimonials-item">
+                                        <div class="info">
+                                            <img src="Images/Footer/a12.jpeg" alt="">
+                                            <div class="text-box">
+                                                <h3 class="name">luke theodore</h3>
+                                                <span class="job">chief technology officer</span>
+                                            </div>
+                                        </div>
+                                        <p>Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus. Tellus molestie nunc non blandit massa. Congue nisi vitae suscipit tellus mauris a. Tellus orci ac auctor augue mauris augue neque.</p>
+                                        <div class="rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            <div class="swiper-pagination js-testimonials-pagination"></div>
+                        </div> 
+                    </div>
+                </section> 
+            </div>      
+        
+            <a class="footer-beintouch"  href="#">BE IN TOUCH</a>
+        
+            <div class="footer-sitemap wrapper-main">
+                 <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">GALLERY</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>    
+                <ul>
+                    <li><a href="#">FRONTEND DEVELOPER</a></li>
+                    <li><a href="#">BACKEND DEVELOPER</a></li>
+                    <li><a href="#">PYTHON DEVELOPER</a></li>
+                    <li><a href="#">DATA STRUCTURE & ALGORITHMS</a></li>
+                    <li><a href="#">WEBSITE DESIGNER</a></li>
+                </ul>
+                <ul>
+                    <li>
+                        <p style="text-transform: uppercase;">I have no more links to paste so its just a dummy text. If you want a custom product made, then don't hesitate to send me an e-mail, or call me to arrange a small meeting!!  Thank You.</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li><p class="footer-contactinfo">CONTACT INFO:</p></li>
+                    <li><a href="#">+917829386930</a></li>
+                    <li><a href="#">cholinsanjeevini@gmail.com</a></li>
+                    <li><p class="footer-contactinfo">BELAGAVI</p></li>
+                </ul>    
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="JavaScript/swiper.js"></script>
+    <script src="JavaScript/main.js"></script>
+
+</body>
+
+</html>
